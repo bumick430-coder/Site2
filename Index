@@ -1,0 +1,77 @@
+index.html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rofael | Ссылки</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#111,#1e3c72,#2a5298);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    color:#fff;
+}
+.card{
+    width:320px;
+    text-align:center;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(12px);
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+h1{
+    margin:10px 0;
+}
+p{
+    color:#ddd;
+}
+.btn{
+    display:block;
+    margin:15px 0;
+    padding:15px;
+    text-decoration:none;
+    color:white;
+    border-radius:12px;
+    font-size:18px;
+    transition:.3s;
+}
+.telegram{background:#229ED9;}
+.tiktok{background:#000;}
+.donate{background:#ff6b00;}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>Rofael</h1>
+<p>Добро пожаловать!</p>
+
+<a class="btn telegram" href="https://t.me/Vanyalesorub" target="_blank">
+📩 Telegram
+</a>
+
+<a class="btn tiktok" href="https://tiktok.com/@rofael_228" target="_blank">
+🎵 TikTok
+</a>
+
+<a class="btn donate" href="https://www.donationalerts.com/r/sho4w" target="_blank">
+💸 Поддержать
+</a>
+
+</div>
+
+</body>
+</html>
